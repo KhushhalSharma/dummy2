@@ -1,0 +1,6 @@
+pages/noindex/shopcart.js
+pages/noindex/payment.js
+components/payment/upipayment.js
+components/payment/netbanking.js
+components/payment/creditdebitpayment.js
+pages/noindex/flightresultsroundtrip.js

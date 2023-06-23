@@ -1,0 +1,59 @@
+{
+  "name": "travelxp-react-nextjs",
+  "version": "4.4.7",
+  "description": "Travelxp Travel website",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev -p 3001",
+    "build:dev": "NODE_ENV=production TYPE=development next build",
+    "build:prod": "NODE_ENV=production TYPE=production next build",
+    "start": "NODE_ENV=production next start -p 3001",
+    "start:dev": "NODE_ENV=production TYPE=development next start -p 3001",
+    "start:prod": "NODE_ENV=production TYPE=production next start -p 3001",
+    "lint": "next lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://travelxp.visualstudio.com/Travelxp_React_NextJs/_git/Travelxp_React_NextJs"
+  },
+  "keywords": [],
+  "author": "Prashant Chothani",
+  "license": "ISC",
+  "dependencies": {
+    "@aws-amplify/auth": "^4.6.7",
+    "@bugsnag/js": "^7.17.4",
+    "@bugsnag/plugin-react": "^7.17.4",
+    "@headlessui/react": "^1.7.11",
+    "@heroicons/react": "^2.0.14",
+    "@tailwindcss/line-clamp": "^0.4.2",
+    "dayjs": "^1.11.7",
+    "intersection-observer": "^0.12.2",
+    "lodash": "^4.17.21",
+    "lottie-web": "^5.9.6",
+    "next": "^13.2.3",
+    "next-seo": "^5.15.0",
+    "rc-slider": "^10.0.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-intersection-observer": "^9.4.0",
+    "react-map-gl": "^7.0.19",
+    "react-slick": "^0.29.0",
+    "swr": "^2.0.3",
+    "tailwind-scrollbar-hide": "^1.1.7",
+    "video.js": "^7.21.3",
+    "videojs-contrib-eme": "^3.9.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/forms": "^0.5.3",
+    "autoprefixer": "^10.4.13",
+    "eslint": "^8.25.0",
+    "eslint-config-next": "^13.4.1",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "mapbox-gl": "^2.12.0",
+    "postcss": "^8.4.21",
+    "prettier": "^2.8.4",
+    "prettier-plugin-tailwindcss": "^0.2.3",
+    "tailwindcss": "^3.2.4"
+  }
+}
